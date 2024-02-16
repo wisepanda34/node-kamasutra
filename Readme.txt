@@ -11,3 +11,6 @@ $ yarn nodemon .\dist\index.js - в другом терминале
     "build": "tsc",
     "start": "node dist/index.js"
   }, запускать скрипты в разных терминалах
+
+$ yarn add jest ts-jest @types/jest supertest @types/supertest
+$ yarn ts-jest config:init     
