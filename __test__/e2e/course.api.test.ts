@@ -2,7 +2,6 @@ import request from 'supertest'
 import {app} from '../../src/app'
 import { CreateCourseModel } from '../../src/models/CreateCourseModel'
 import { UpdateCourseModel } from '../../src/models/UpdateCourseModel'
-import { log } from 'console'
 
 describe('/courses', ()=>{
   //обнуляем БД перед тестами
